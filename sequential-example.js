@@ -18,5 +18,5 @@ sequential([
 		}, 200);
 	}
 	], function (resultList) {
-		console.log('Result List:', resultList);
+		console.log('result list:', resultList);
 	});
