@@ -3,7 +3,7 @@ var sequential = require('./sequential');
 sequential([
 	function (callback) {
 		setTimeout(function () {
-			console.log('first task completed');
+			console.log('1 task completed');
 			callback(null, 'passed from the first task');
 		}, 500);
 	}, function (callback) {
