@@ -13,8 +13,8 @@ sequential([
 		}, 300);
 	}, function (callback) {
 		setTimeout(function () {
-			console.log('third task completed');
-			callback(null, 'passed from the third task');
+			console.log('3rd task completed');
+			callback(null, 'passed from the 3rd task');
 		}, 200);
 	}
 	], function (resultList) {
